@@ -26,6 +26,7 @@ public class DefaultBoard : Board
         GameObject obj2 = Instantiate(s, new Vector3(0, 3, 0), Quaternion.identity);
         Shape sha = obj2.GetComponent<Shape>();
 
+        //TODO: problem here, I STOP HERE
         Debug.Log("Can IT Move " + CanShapeMoveTo(sha,new Vector3(0,2,0)));
 
     }
