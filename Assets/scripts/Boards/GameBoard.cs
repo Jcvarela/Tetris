@@ -26,11 +26,11 @@ public class GameBoard : MonoBehaviour
 	void Update () {
 
 
-
         if (ActiveStopMoving())
 	    {
             CreateNewPiece();
 	    }
+
 	}
 
 
@@ -46,8 +46,6 @@ public class GameBoard : MonoBehaviour
         {
             ridB.velocity -= acceleration;
         }
-
-       
     }
 
     public bool ActiveStopMoving()
